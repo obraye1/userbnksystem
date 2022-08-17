@@ -1,0 +1,13 @@
+{
+    "env": {
+      "MY_KEY": "this is the value",
+      "SECRET": "JWTSECRETKEY"
+
+    },
+    "build": {
+      "env": {
+        "NODE_ENV": "production",
+        "SECRET": "JWTSECRETKEY"
+      }
+    }
+  }

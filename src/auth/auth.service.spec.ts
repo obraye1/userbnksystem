@@ -10,9 +10,9 @@ describe('AuthService', () => {
     const module: TestingModule = await Test.createTestingModule({
       providers: [AuthService, 
         {
-        provide: JwtService,
-        useValue: {
-          signAsync: jest.fn(() => 'token'),
+         provide : JwtService,
+         useValue: {
+         signAsync: jest.fn(() => 'token'),
         }
       }],
     }).compile();
